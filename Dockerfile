@@ -10,4 +10,4 @@ EXPOSE 5000
 
 ENV FLASK_APP=app.py
 
-ENTRYPINT ["flask", "run"]
+ENTRYPOINT ["flask", "run"]
